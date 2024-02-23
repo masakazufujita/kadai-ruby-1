@@ -1,6 +1,2 @@
-profile = {
-  myoji: '藤田',
-  namae: '雅三',
-  age: 56
-}
-puts profile[:myoji] + profile[:namae] + "です。" + profile[:age].to_s + "歳です。"
+profile = ['藤田','雅三',56]
+puts profile[0] + profile[1] + "です。" + profile[2] .to_s + "歳です。"
